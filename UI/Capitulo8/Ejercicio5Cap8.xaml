@@ -1,0 +1,28 @@
+﻿<Window x:Class="Capitulo8y9.UI.Capitulo8.Ejercicio5Cap8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo8y9.UI.Capitulo8"
+        mc:Ignorable="d"
+        Title="Ejercicio5Cap8" Height="300" Width="600">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+
+            <Label Content="Cadena 1"/>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="Cadena1TextBox" Width="400" Height="20" Margin="5,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <Label Content="Cadena 2"/>
+            <TextBox Name="Cadena2TextBox" Width="400" Height="20" Margin="5,0" HorizontalAlignment="Left"/>
+
+            <StackPanel>
+                <Button Name="OrdenarButton" Content="Ordenar" Width="60" Click="OrdenarButton_Click" Margin="170,10,00,0"/>
+            </StackPanel>
+            
+            <TextBlock Name="CadenaOrdenadaTextBlock" Width="400" Height="70" Background="LightGray" HorizontalAlignment="Left" Margin="5,13,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

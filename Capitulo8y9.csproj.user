@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UI\Capitulo8\Ejercicio3Cap8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Capitulo8\Ejercicio5Cap8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Capitulo9\Ejercicio1Cap9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Capitulo9\Ejercicio3Cap9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Capitulo9\Ejercicio4Cap9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Capitulo8\Ejercicio3Cap8.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Capitulo8\Ejercicio5Cap8.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Capitulo9\Ejercicio1Cap9.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Capitulo9\Ejercicio3Cap9.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Capitulo9\Ejercicio4Cap9.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
